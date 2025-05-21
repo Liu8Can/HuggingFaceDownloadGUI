@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+*.spec
+/dist/
+/build/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+*.exe
+*.dmg
+*.pkg
+*.deb
+*.rpm
+
+# Logs and databases
+*.log
+*.db
+*.sqlite3
+
+# Credentials and sensitive files
+credentials.json
+.env
+secrets.txt 
