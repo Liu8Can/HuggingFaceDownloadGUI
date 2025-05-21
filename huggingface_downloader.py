@@ -513,6 +513,11 @@ class HuggingFaceDownloaderGUI:
         """更新进度条旁边的百分比标签"""
         progress = self.progress_var.get()
         
+        # 限制最大进度为100%
+        if progress > 100:
+            progress = 100
+            self.progress_var.set(100)
+        
         # 进度条处于不确定状态时显示为动画中，不显示具体百分比
         if self.progress_bar.cget('mode') == 'indeterminate':
             self.progress_label.config(text="下载中")
