@@ -7,7 +7,7 @@
 
 一个简单易用的图形界面工具，帮助你轻松下载 HuggingFace Hub 上的模型和数据集。支持代理设置、断点续传和自定义忽略模式。
 
-![界面预览](https://github.com/Liu8Can/HuggingFaceDownloadGUI/raw/main/preview.png)
+![界面预览](./raw/main/preview.png)
 
 ## ✨ 功能特色
 
